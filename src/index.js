@@ -1,8 +1,8 @@
 // @flow
 /* eslint-disable no-console */
 
-import Dog from './dog'
+import Hello from './hello'
 
-const toby = new Dog('Toby')
+const msg = new Hello('World')
 
-console.log(toby.bark())
+console.log(msg.display())
